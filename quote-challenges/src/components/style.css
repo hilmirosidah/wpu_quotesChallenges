@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'raleway';
+    src: local('raleway'),
+    url('./font/raleway-regular-webfont.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-family: 'monserrate';
+    src: local('monserrate'),
+    url('./font/montserratalternates-regular-webfont.woff2') format ('woff2');
+}
+
+.utama {
+    display:block;
+    width: 55%;
+    padding-left: 80px;
+    border-left: 3px solid rgb(245, 200, 116);
+    text-align: left;
+    margin: 80px auto;
+    font-family: 'raleway', sans-serif;
+    font-size: 36px;
+}
+
+.none {
+    display: none;
+}
+
+.random {
+    text-align: right;
+    padding-right: 110px;
+    margin-top: 19px;
+    font-family: 'raleway', sans-serif;
+    font-size: 18px;
+    color: #4f4f4f;
+    cursor: pointer;
+    height: 30px;
+}
+
+.img1 {
+    max-width: 16px;
+    height: 22px;
+    top: 15px;
+    right: 4px;
+    position: absolute;
+    padding-right: 80px;
+    transform: rotate(-5deg);
+}
+
+.img2 {
+    max-width: 25.33px;
+    height: 12.67px;
+    float: right;
+    margin-top: -25px;
+
+}
+.gambar {
+    max-width: 30px;
+    position: absolute;
+    right: 80px;
+    top: 17px;
+    transform: rotate(-90deg);
+}
+
+.gambar2 {
+    max-width: 25px;
+    float: right;
+    margin-top: -32;
+}
+
+.tombol {
+    width: 48%;
+    height: 100px;
+    cursor: pointer;
+    margin: 90px auto;
+    padding: 5px 25px 5px 25px;
+    box-sizing: border-box;
+}
+
+.tombol:hover {
+    background-color: #333;
+}
+
+.tombol2 {
+    display: none;
+}
+
+.penulis {
+    color: #4f4f4f;
+    text-align: left;
+    font-family: 'raleway' ,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.penulis2 {
+    color: #f2f2f2;
+    text-align: left;
+    font-family: 'raleway', sans-serif;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.penulis3 {
+    width: 60%;
+    display: block;
+    color: #333;
+    text-align: left;
+    margin-left: 23%;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-family: 'raleway' ,sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.jenis {
+    color: #828282;
+    text-align: left;
+    font-family: 'raleway', sans-serif;
+    font-size: 14px;
+}
+
+.created {
+    color: #828282;
+    font-weight: 500;
+    width: 60%;
+    text-align: center;
+    font-family: 'monserrate' ,sans-serif;
+    font-size: 14px;
+    margin: 200px auto 30px;
+}
+
+.name {
+    color: inherit;
+    font-weight: 700;
+}
